@@ -1,7 +1,6 @@
 # Exercises
 
-#### Note
-You can attempt these Exercises in an OOP language, such as Python, Java, C/C++, etc.
+#### Note: you can attempt these Exercises in an OOP language, such as Python, Java, C/C++, etc.
 
 
  
