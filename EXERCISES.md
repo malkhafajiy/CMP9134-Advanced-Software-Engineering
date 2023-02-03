@@ -47,10 +47,15 @@ It is possible to name the days 0 through 6 where day 0 is Sunday and day 6 is S
 Write a script grade.py that asks the user to input the score out of 100. If the input is positive, it assigns grades to the user as the following and prints out the mark (A, B, C, D). If the score is out of range (i.e. < 0 or >100), tell user it’s invalid.
 
 Score < 0	-- invalid
+
 0 <= Score < 30	– D
+
 30 <= score < 50	– C
+
 50 <= score < 70	– B
+
 70 <= score <= 100	– A
+
 Score > 100
 
 ------------
