@@ -8,7 +8,7 @@
   * Digits (0 through 9)
   * Underscore (_)
 - Names cannot begin with a digit.
-
+ 
 ## Data Types
 
 In Python, everything — booleans, integers, floats, strings, even large data structures, functions, and programs—is implemented as an object.
