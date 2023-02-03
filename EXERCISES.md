@@ -1,6 +1,6 @@
 # Exercises
 
-### Note
+## Note
 
 You can attempt these Exercises in an OOP language, such as Python, Java, C/C++, etc.
 
