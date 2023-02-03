@@ -22,7 +22,9 @@ It is a widespread technique to solve the problem by creating objects.
 
 ------------
 
-## NOTES
+## NOTE
+Python Fundamentals
+[Python Fundamentals](python_fundamentals.md)
 
 ------------
 #### 01. Classes
