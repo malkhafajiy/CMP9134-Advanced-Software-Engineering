@@ -2,7 +2,7 @@
 
 #### Note: 
 
-1- You can attempt these Exercises in an OOP language, such as Python, Java, C/C++, etc. However, the naming of files used in the text of the exercises below presumes that python is used. You can change the file extension to the relevant language which you prefer to use.
+1- You can attempt these Exercises in any OOP language, such as Python, Java, C/C++, etc. However, the naming of files used in the text of the exercises below presumes that python is used. You can change the file extension to the relevant language which you prefer to use.
 
 2- Save your solution on your git repository.
 
