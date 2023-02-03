@@ -20,8 +20,8 @@ OOP concepts include constructors, abstraction, encapsulation, inheritance and p
 ------------
 
 ## NOTE
-This workshop provides you with a brief explanation of different OOP concepts that can help with solving [the exercises](Exercises.md).
-In addition, some [Python Fundamentals](PYTHON_FUNDAMENTALS.md).
+This repository provides you with a brief explanation of different OOP concepts along with some [Python Fundamentals](PYTHON_FUNDAMENTALS.md) that can help you solve 
+the [Workshop Exercises](EXERCISES.md).
 
 ------------
 #### 01. Classes
