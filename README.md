@@ -24,7 +24,7 @@ It is a widespread technique to solve the problem by creating objects.
 
 ## NOTE
 Python Fundamentals
-[Python Fundamentals](python_fundamentals.md)
+[Python Fundamentals](PYTHON_FUNDAMENTALS.md)
 
 ------------
 #### 01. Classes
