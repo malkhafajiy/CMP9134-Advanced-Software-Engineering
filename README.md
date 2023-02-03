@@ -23,6 +23,7 @@ It is a widespread technique to solve the problem by creating objects.
 ------------
 
 ## NOTES
+
 ------------
 #### 01. Classes
 
@@ -36,9 +37,8 @@ class myClass():
 ```
 [Class Attributes](01.Class-Attributes)
 
-------------
-------------
 
+------------
 #### 02. Methods-Functions
 
 - Inside classes, you can define functions or methods that are part of this class
@@ -74,7 +74,7 @@ class myClass():
         
         * We have one more method called [magic method](02.Methods/magic-method.py)
 
-------------
+
 ------------
 #### 03. Objects
 
@@ -112,7 +112,7 @@ def main():
 if __name__== "__main__":
   main()
 ```
-------------
+
 ------------
 #### 04. Constructors
 
@@ -126,7 +126,7 @@ def __init__(self):
 ```
 
 * More about __init__ constructor [Link](04.init-constructor)
-------------
+
 ------------
 #### 05. Inheritance
 
@@ -143,7 +143,6 @@ Encapsulation involves the bundling of data members and functions inside a singl
 [Detailed Explanation](06.Encapsulation)
 
 ------------
-------------
 #### 07. Polymorphism
 
 The literal meaning of polymorphism is the condition of occurrence in different forms.
@@ -151,7 +150,6 @@ Polymorphism in python defines methods in the child class that have the same nam
 
 [Detailed Explanation](07.Polymorphism)
 
-------------
 ------------
 #### 08. Decorators
 
@@ -163,7 +161,6 @@ This is also called metaprogramming because a part of the program tries to modif
 [Detailed Explanation](08.Decorators)
 
 ------------
-------------
 #### 09. Method Overloading
 
 Two methods cannot have the same name in Python. Method overloading in Python is a feature that allows the same operator to have different meanings.
@@ -173,5 +170,4 @@ Overloading is the ability of a function or an operator to behave in different w
 In Python, you can create a method that can be called in different ways. So, you can have a method that has zero, one or more number of parameters. Depending on the method definition, we can call it with zero, one or more arguments.
 
 [Detailed Explanation](09.Method_overloading)
-
 ------------
