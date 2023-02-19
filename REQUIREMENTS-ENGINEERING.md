@@ -2,7 +2,7 @@
 
 #### Note: 
 
-1- You can attempt this exercise using any documentation tools.
+1- You can attempt this exercise using any documentation tool.
 
 2- Save your solution on your git repository.
 
