@@ -1,4 +1,4 @@
-# Learn UML
+# System modelling using UMLs
 
 **Unified Modeling Language** helps you to document your projects and have a full overview of the whole project.  
 It helps you build software systems efficiently.  
@@ -44,7 +44,7 @@ So we should visualise the system from different viewer's perspective to design 
 
 - **Use Case View**: Shows what the system must and should do generally. All of the other views rely on this view, that's why this view model is called 4+1. Diagrams: Use Case.
 
-[Click here](https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf) read Chapter 6 to learn more about Kruchten 4+1 view model.
+*Note: read [Chapter 6](https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf) to learn more about Kruchten 4+1 view model.
 
 
 ## What are Diagrams?
@@ -142,11 +142,11 @@ Here is a sample Stereotype that defines the element which it is written on is a
 
 UML has defined some standard Stereotypes that help us to name elements better based on their responsibilities:
 
-- Applied to classes: Utility(A class that represents a utility services through static methods, like a Math class).
+- Applied to classes: Utility (A class that represents a utility services through static methods, like a Math class).
 
-- Applied to components: Service(A statless component that computes a value, like a web service), subsystem(a subordinate system of a larger system).
+- Applied to components: Service (A statless component that computes a value, like a web service), subsystem (a subordinate system of a larger system).
 
-- Applied to artifacts: Executable(A physical file that is executable, like .exe), File(A physical file used by the system, like a configuration .txt file), Library(A lib file, like .dll or .js files), source(A source file containing the main codes, like .js).
+- Applied to artifacts: Executable (A physical file that is executable, like `.exe`), File (A physical file used by the system, like a configuration `.txt` file), Library (A lib file, like `.dll` or `.js` files), source(A source file containing the main codes, like `.js`).
 
 And **what is a Tagged Value?** Well, a Stereotype can contain extra information about the element that it's applied to, a Tagged Value shows that extra information. In most of the times a Tagged Value defines what roles a specific Stereotype must obey. A Tagged Value will be drawn in the diagrams using the similar notation to notes. It includes the associated Stereotype name with the settings of the Tagged Value, then will be attached to the Stereotyped element using a dotted line with a circle at the element end.
 
@@ -180,11 +180,13 @@ There are lots of different tools that let you draw UML diagrams for your projec
 Such as [UMLet](http://www.umlet.com/).
 In this course you are eclome to use any tool you like, just search the web and find the one that suites you the most. 
 
-*Note: in the lab you can use the [Draw.io}(https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension. Draw.io Integration
+*Note: in the lab you can use the [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension. Draw.io Integration
 
-### Install the VS Code integration
+#### Install the VS Code integration
 1- In the VS Code editor, click on the Extensions section in the left panel.
+
 2- Search for draw.io.
+
 3- Click Install on the Draw.io Integration created by Henning Dieterichs.
 
 
