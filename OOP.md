@@ -1,15 +1,15 @@
 # Object Oriented Programming in Python
 
-00. [OOPs](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#what-do-you-understand-by-oops)
-01. [Classes](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#01-classes)
-02. [Methods-Functions](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#02-methodsfunctions)
-03. [Objects](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#03-objects)
-04. [Constructors](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#04-constructors)
-05. [Inheritance](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#05-inheritance)
-06. [Encapsulation](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#06-encapsulation)
-07. [Polymorphism](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#07-polymorphism)
-08. [Decorators](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#08-decorators)
-09. [Method Overloading](https://github.com/malkhafajiy/CMP9134-Advanced-Software-Engineering#09-method-overloading)
+00. [OOPs](#what-do-you-understand-by-oops)
+01. [Classes](#01-classes)
+02. [Methods-Functions](#02-methodsfunctions)
+03. [Objects](#03-objects)
+04. [Constructors](#04-constructors)
+05. [Inheritance](#05-inheritance)
+06. [Encapsulation](#06-encapsulation)
+07. [Polymorphism](#07-polymorphism)
+08. [Decorators](#08-decorators)
+09. [Method Overloading](#09-method-overloading)
 
 ------------
 ## What do you understand by OOPs?
@@ -20,7 +20,7 @@ OOP concepts include constructors, abstraction, encapsulation, inheritance and p
 ------------
 
 ## NOTE
-This repository provides you with a brief explanation of different OOP concepts along with some [Python Fundamentals](PYTHON_FUNDAMENTALS.md) that can help you solve 
+This tutorial provides you with a brief explanation of different OOP concepts along with some [Python Fundamentals](PYTHON_FUNDAMENTALS.md) that can help you solve 
 the [Workshop Exercises](EXERCISES.md).
 
 ------------
