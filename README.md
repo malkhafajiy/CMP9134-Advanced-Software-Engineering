@@ -28,4 +28,4 @@ The course covers the following topics:
 * [Developing requirements specification](REQUIREMENTS-ENGINEERING.md) - Week 4 of the module
 * [System design/modelling using UMLs](UML.md) - Week 6 of the module
 
-> More content introduced as progress in the module
+> More content is introduced as we progress in the module
