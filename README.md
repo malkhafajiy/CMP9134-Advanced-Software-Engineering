@@ -24,6 +24,8 @@ The course covers the following topics:
 * Legal, Ethical and Professionalism
 
 ## GitHub repository contents
-* [Object Oriented Programming in Python](OOP.md) - Week 2 and 3 of the module
-* [Develop requirements specification for a given problem](REQUIREMENTS-ENGINEERING.md) - Week 4 of the module
+* [Object Oriented Programming in Python](OOP.md) and [OOP Exercises](EXERCISES.md) - Week 2 and 3 of the module
+* [Developing requirements specification](REQUIREMENTS-ENGINEERING.md) - Week 4 of the module
 * [System design/modelling using UMLs](UML.md) - Week 6 of the module
+
+> More content introduced as progress in the module
