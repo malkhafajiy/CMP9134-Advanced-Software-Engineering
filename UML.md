@@ -637,3 +637,5 @@ Generally every project has some business requirements and budget, an efficient 
 
 # What's next?
 In this tutorial you learned all you need to know about UML. Now try to attempt to create UML diagrams to Week 4 extracted requirements for the [COURSE MANAGEMENT SYSTEM (CMS)](REQUIREMENTS-ENGINEERING.md). 
+
+*Remember to save your solution on your git repository.
