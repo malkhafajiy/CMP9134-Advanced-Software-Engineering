@@ -44,7 +44,7 @@ So we should visualise the system from different viewer's perspective to design 
 
 - **Use Case View**: Shows what the system must and should do generally. All of the other views rely on this view, that's why this view model is called 4+1. Diagrams: Use Case.
 
-*Note: read [Chapter 6](https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf) to learn more about Kruchten 4+1 view model.
+> Note: read [Chapter 6](https://engineering.futureuniversity.com/BOOKS%20FOR%20IT/Software-Engineering-9th-Edition-by-Ian-Sommerville.pdf) to learn more about Kruchten 4+1 view model.
 
 
 ## What are Diagrams?
@@ -118,7 +118,7 @@ Here is explaination for the most important notations and as we continue and sta
 
 - **Annotational**:
 
-  - Note Notation: It captures any additional comments that are not captured in the diagram. It's like a comment in code. A note can be attached to an element by a dotted line.
+  > Note Notation: It captures any additional comments that are not captured in the diagram. It's like a comment in code. A note can be attached to an element by a dotted line.
 
 
 - **Relationships**:
@@ -180,14 +180,12 @@ There are lots of different tools that let you draw UML diagrams for your projec
 Such as [UMLet](http://www.umlet.com/).
 In this course you are eclome to use any tool you like, just search the web and find the one that suites you the most. 
 
-*Note: in the lab you can use the [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension. Draw.io Integration
+> Note: in the lab you can use the [Draw.io](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) extension. Draw.io Integration
 
 #### Install the VS Code integration
-1- In the VS Code editor, click on the Extensions section in the left panel.
-
-2- Search for draw.io.
-
-3- Click Install on the Draw.io Integration created by Henning Dieterichs.
+1. In the VS Code editor, click on the Extensions section in the left panel.
+2. Search for draw.io.
+3. Click Install on the Draw.io Integration created by Henning Dieterichs.
 
 
 # UML Diagrams
@@ -638,4 +636,4 @@ Generally every project has some business requirements and budget, an efficient 
 # What's next?
 In this tutorial you learned all you need to know about UML. Now try to attempt to create UML diagrams to Week 4 extracted requirements for the [COURSE MANAGEMENT SYSTEM (CMS)](REQUIREMENTS-ENGINEERING.md). 
 
-*Remember to save your solution on your git repository.
+> Remember to save your solution on your git repository.
