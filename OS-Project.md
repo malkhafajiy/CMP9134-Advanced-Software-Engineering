@@ -11,7 +11,7 @@ Open-source software (OSS) is computer software that is released under a license
 - It helps you learn more about project management, and it could leave you inspired to start your own project.
 
 
-## Open Source 
+## Open Source Projects
 Contributing works on all levels, there is no need to over think how you're gonna do it. Instead think of some of the projects you already use and how you can make a change to them or improve on them. Here are some possible projects that you can work on for Assignment 2.
 
 
@@ -38,10 +38,12 @@ Contributing works on all levels, there is no need to over think how you're gonn
 There are numerous open-source projects avalible online - but how do you get started? Here’s a quick summary of Open Source Guide on How to Contribute to Open Source:
 
 ### 1. Where to find open-source projects to contribute to?
-You might wonder where to even start when deciding to take a chance and contribute to an open-source project. You might want to explore these websites:
+You might wonder where to even start when deciding to take a chance and contribute to an open-source project. 
+You might want to explore these websites:
 
 - [GitHub](https://github.com/)
 - [Code Triage](https://www.codetriage.com/)
+- [First Contributions](https://github.com/firstcontributions/first-contributions)
 - [First Timers Only](https://www.firsttimersonly.com/)
 - [First Contributions](https://firstcontributions.github.io/)
 - [Open Source Friday](https://opensourcefriday.com/)
