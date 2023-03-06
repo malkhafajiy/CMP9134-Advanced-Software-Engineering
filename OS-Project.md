@@ -43,6 +43,7 @@ You might want to explore these websites:
 
 - [GitHub](https://github.com/)
 - [Code Triage](https://www.codetriage.com/)
+- [Open Source Guides](https://opensource.guide/)
 - [First Contributions](https://github.com/firstcontributions/first-contributions)
 - [First Timers Only](https://www.firsttimersonly.com/)
 - [First Contributions](https://firstcontributions.github.io/)
