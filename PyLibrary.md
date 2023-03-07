@@ -25,8 +25,6 @@ Follow the steps below to create a GitHub repository and then pull it to your lo
 
 3. Open VSCode: Launch Visual Studio Code from the applications menu or the command line. Open the project directory you have created (aka `mypythonlibrary`). To do this From the VSCode welcome screen, select "Open Folder" and navigate to the directory where your project is located. Alternatively, you can select "Open" from the File menu and choose the project directory.
 
----
-***
 ___
 ### Step 2: Create a virtual environment for your folder
 When starting your project, it is always a good idea to create a virtual environment to encapsulate your project. A virtual environment consists of a certain Python version and some libraries.
@@ -49,7 +47,7 @@ In your environment, make sure you have `pip` installed `wheel`, `setuptools` an
 > pip install twine
 
 
-
+___
 ### Step 3: Create a folder structure
 In VSCode, your folder `mypythonlibrary` (or whatever name you have given). It should look something like this:
 ```
@@ -80,7 +78,7 @@ You now can start adding folders and files to your project. You can do this eith
 5. And, finally, create a folder `tests` in your root folder. Inside, create an empty `__init__.py` file and an empty `test_myfunctions.py`.
 
 
-
+___
 ### Step 4: Create content for your library
 Now you can write functions inside your library, you can place them in the `myfunctions.py` file. 
 
@@ -195,7 +193,7 @@ setup(
 
 > To execute all tests stored in the ‘tests’ folder, you can use `python setup.py pytest`. 
 
-
+___
 ### Step 5: Build your library
 Now that all the content is there, we want to build our library. In your command prompt, run `python setup.py bdist_wheel`.
 Your wheel file is stored in the “dist” folder that is now created. 
