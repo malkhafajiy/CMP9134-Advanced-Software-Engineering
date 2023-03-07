@@ -100,9 +100,111 @@ Where:
 - `dLat` is the difference in latitude between the two points in radians
 - `dLon` is the difference in longitude between the two points in radians
 
+> It is a good idea to have the Haversine formula as a library, isn't it? By creating a library, you can package the Haversine formula into a reusable and modular component that can be used by other developers in their projects. This saves them the effort of having to implement the formula themselves, which can be time-consuming and error-prone.
+
+In the `myfunctions.py` file, wrtie the following python code for Haversine formula. The `haversine` function in the code will return the distance in kilometers between two latitude and longitude points. 
+
+```
+from math import radians, cos, sin, asin, sqrt
+
+def haversine(lon1, lat1, lon2, lat2):
+    """
+    Calculate the great circle distance in kilometers between two points 
+    on the earth (specified in decimal degrees)
+    """
+    # convert decimal degrees to radians 
+    lon1, lat1, lon2, lat2 = map(radians, [lon1, lat1, lon2, lat2])
+
+    # haversine formula 
+    dlon = lon2 - lon1 
+    dlat = lat2 - lat1 
+    a = sin(dlat/2)**2 + cos(lat1) * cos(lat2) * sin(dlon/2)**2
+    c = 2 * asin(sqrt(a)) 
+    r = 6371 # Radius of earth in kilometers. Use 3956 for miles. Determines return value units.
+    return c * r
+```
+
+##### write tests for your library
+Whenever you write any code, it is highly encouraged to also write tests for this code. For testing with Python you can use the libraries `pytest` and `pytest-runner`. Install the library in your virtual environment:
+
+> pip install pytest
+
+> pip install pytest-runner
+
+Let’s create a small test for the `haversine` function. Copy the following and place it inside the `test_myfunctions.py` file:
+
+```
+from mypythonlib import myfunctions
+def test_haversine():
+    assert myfunctions.haversine(52.370216, 4.895168, 52.520008,
+    13.404954) == 945793.4375088713
+```
+
+Now let’s create a `setup.py` file, that will help us to build the library. A limited version of `setup.py` will look something like this:
+
+```
+from setuptools import find_packages, setup
+setup(
+    name='mypythonlib',
+    packages=find_packages(),
+    version='0.1.0',
+    description='My first Python library',
+    author='Me',
+    license='MIT',
+)
+```
+The name variable in setup holds whatever name you want your package wheel file to have. To make it easy, we will gave it the same name as the folder `mypythonlibrary`.
+
+##### Set the packages you would like to create
+While in principle you could use `find_packages()` without any arguments, this can potentially result in unwanted packages to be included. This can happen, for example, if you included an `__init__.py` in your `tests` directory (which we did). Alternatively, you can also use the exclude argument to explicitly prevent the inclusion of tests in the package, but this is slightly less robust. Let’s change it to the following:
+
+```
+from setuptools import find_packages, setup
+setup(
+    name='mypythonlib',
+    packages=find_packages(include=['mypythonlib']),
+    version='0.1.0',
+    description='My first Python library',
+    author='Me',
+    license='MIT',
+)
+```
+##### Set the requirements your library needs
+Note that pip does not use `requirements.yml` / `requirements.txt` when your project is installed as a dependency by others. Generally, for that, you will have to specify dependencies in the `install_requires` and `tests_require` arguments in your `setup.py` file.
+
+> `Install_requires` should be limited to the list of packages that are absolutely needed. This is because you do not want to make users install unnecessary packages. Also note that you do not need to list packages that are part of the standard Python library. Since we have only defined the haversine function so far and it only uses the `math` library (which is always available in Python), we can leave this argument empty.
+
+You remember we installed the `pytest` library before. Of course, you do not want to add `pytest` to your dependencies in `install_requires`: it isn’t required by the users of your package. In order to have it installed automatically only when you run tests you can add the following to your `setup.py`:
+```
+from setuptools import find_packages, setup
+setup(
+    name='mypythonlib',
+    packages=find_packages(include=['mypythonlib']),
+    version='0.1.0',
+    description='My first Python library',
+    author='Me',
+    license='MIT',
+    install_requires=[],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
+    test_suite='tests',
+)
+```
+
+> To execute all tests stored in the ‘tests’ folder, you can use `python setup.py pytest`. 
 
 
+#### Step 6: Build your library
+Now that all the content is there, we want to build our library. In your command prompt, run `python setup.py bdist_wheel`.
 
-#### Step 5: Build your library
+Your wheel file is stored in the “dist” folder that is now created. You can install your library by using `pip install /path/to/wheelfile.whl`.
+
+> Note that you could also publish your library to an internal file system on intranet at your workplace, or to the official PyPI repository and install it from there.
+
+Once you have installed your Python library in a project, you can import it using:
+```
+import mypythonlib
+from mypythonlib import myfunctions
+```
 
 
