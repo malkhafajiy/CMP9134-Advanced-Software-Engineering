@@ -25,7 +25,9 @@ Follow the steps below to create a GitHub repository and then pull it to your lo
 
 3. Open VSCode: Launch Visual Studio Code from the applications menu or the command line. Open the project directory you have created (aka `mypythonlibrary`). To do this From the VSCode welcome screen, select "Open Folder" and navigate to the directory where your project is located. Alternatively, you can select "Open" from the File menu and choose the project directory.
 
-
+---
+***
+___
 ### Step 2: Create a virtual environment for your folder
 When starting your project, it is always a good idea to create a virtual environment to encapsulate your project. A virtual environment consists of a certain Python version and some libraries.
 
