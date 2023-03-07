@@ -124,7 +124,7 @@ def haversine(lon1, lat1, lon2, lat2):
     return c * r
 ```
 
-#### write tests for your library
+#### Write tests for your library
 Whenever you write any code, it is highly encouraged to also write tests for this code. For testing with Python you can use the libraries `pytest` and `pytest-runner`. Install the library in your virtual environment:
 
 > pip install pytest
