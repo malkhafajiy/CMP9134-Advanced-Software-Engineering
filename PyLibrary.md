@@ -196,15 +196,21 @@ setup(
 
 #### Step 6: Build your library
 Now that all the content is there, we want to build our library. In your command prompt, run `python setup.py bdist_wheel`.
+Your wheel file is stored in the “dist” folder that is now created. 
 
-Your wheel file is stored in the “dist” folder that is now created. You can install your library by using `pip install /path/to/wheelfile.whl`.
+> Remember to save your solution on your git repository.
 
-> Note that you could also publish your library to an internal file system on intranet at your workplace, or to the official PyPI repository and install it from there.
+You can install your library by using `pip install /path-to/wheelfile.whl`.
 
 Once you have installed your Python library in a project, you can import it using:
 ```
 import mypythonlib
 from mypythonlib import myfunctions
 ```
+
+> Note that you could also publish your library to an internal file system on intranet at your workplace, or to the official PyPI repository and install it from there.
+
+
+
 
 
