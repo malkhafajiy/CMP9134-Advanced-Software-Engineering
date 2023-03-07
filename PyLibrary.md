@@ -41,7 +41,9 @@ Go ahead and create a virtual environment by following these steps:
 
 In your environment, make sure you have `pip` installed `wheel`, `setuptools` and `twine`. We will need them for later to build our Python library.
 > pip install wheel
+
 > pip install setuptools
+
 > pip install twine
 
 
