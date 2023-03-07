@@ -16,7 +16,7 @@ Creating a Python library can provide many benefits to developers and organizati
 
 
 ## How to create a Python library
-#### Step 1: Create a directory in which you want to put your library
+### Step 1: Create a directory in which you want to put your library
 Follow the steps below to create a GitHub repository and then pull it to your local machine:
 
 1. Create a new GitHub repository: Go to github.com and sign in to your account. Click on the "+" icon in the top right corner of the page and select "New repository". Give your repository a name (name it `mypythonlibrary`) and click "Create repository".
@@ -26,7 +26,7 @@ Follow the steps below to create a GitHub repository and then pull it to your lo
 3. Open VSCode: Launch Visual Studio Code from the applications menu or the command line. Open the project directory you have created (aka `mypythonlibrary`). To do this From the VSCode welcome screen, select "Open Folder" and navigate to the directory where your project is located. Alternatively, you can select "Open" from the File menu and choose the project directory.
 
 
-#### Step 2: Create a virtual environment for your folder
+### Step 2: Create a virtual environment for your folder
 When starting your project, it is always a good idea to create a virtual environment to encapsulate your project. A virtual environment consists of a certain Python version and some libraries.
 
 Virtual environments prevent the issue of running into dependency issues later on. For example, in older projects you might have worked with older versions of the `numpy` library. Some old code, that once worked beautifully, might stop working once you update its version. Perhaps parts of `numpy` are no longer compatible with other parts of your program. Creating virtual environments prevents this. They are also useful in cases when you are collaborating with someone else, and you want to make sure that your application is working on their computer, and vice versa.
@@ -48,7 +48,7 @@ In your environment, make sure you have `pip` installed `wheel`, `setuptools` an
 
 
 
-#### Step 3: Create a folder structure
+### Step 3: Create a folder structure
 In VSCode, your folder `mypythonlibrary` (or whatever name you have given). It should look something like this:
 ```
 📦mypythonlibrary
@@ -79,7 +79,7 @@ You now can start adding folders and files to your project. You can do this eith
 
 
 
-#### Step 4: Create content for your library
+### Step 4: Create content for your library
 Now you can write functions inside your library, you can place them in the `myfunctions.py` file. 
 
 In this tutorial, we will create a library to get the distance between two GPS points using Haversine formula. 
@@ -124,7 +124,7 @@ def haversine(lon1, lat1, lon2, lat2):
     return c * r
 ```
 
-##### write tests for your library
+#### write tests for your library
 Whenever you write any code, it is highly encouraged to also write tests for this code. For testing with Python you can use the libraries `pytest` and `pytest-runner`. Install the library in your virtual environment:
 
 > pip install pytest
@@ -155,7 +155,7 @@ setup(
 ```
 The name variable in setup holds whatever name you want your package wheel file to have. To make it easy, we will gave it the same name as the folder `mypythonlibrary`.
 
-##### Set the packages you would like to create
+#### Set the packages you would like to create
 While in principle you could use `find_packages()` without any arguments, this can potentially result in unwanted packages to be included. This can happen, for example, if you included an `__init__.py` in your `tests` directory (which we did). Alternatively, you can also use the exclude argument to explicitly prevent the inclusion of tests in the package, but this is slightly less robust. Let’s change it to the following:
 
 ```
@@ -169,7 +169,7 @@ setup(
     license='MIT',
 )
 ```
-##### Set the requirements your library needs
+#### Set the requirements your library needs
 Note that pip does not use `requirements.yml` / `requirements.txt` when your project is installed as a dependency by others. Generally, for that, you will have to specify dependencies in the `install_requires` and `tests_require` arguments in your `setup.py` file.
 
 > `Install_requires` should be limited to the list of packages that are absolutely needed. This is because you do not want to make users install unnecessary packages. Also note that you do not need to list packages that are part of the standard Python library. Since we have only defined the haversine function so far and it only uses the `math` library (which is always available in Python), we can leave this argument empty.
@@ -194,7 +194,7 @@ setup(
 > To execute all tests stored in the ‘tests’ folder, you can use `python setup.py pytest`. 
 
 
-#### Step 6: Build your library
+### Step 5: Build your library
 Now that all the content is there, we want to build our library. In your command prompt, run `python setup.py bdist_wheel`.
 Your wheel file is stored in the “dist” folder that is now created. 
 
