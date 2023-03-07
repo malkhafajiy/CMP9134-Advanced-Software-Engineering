@@ -52,13 +52,17 @@ In your environment, make sure you have `pip` installed `wheel`, `setuptools` an
 In VSCode, your folder `mypythonlibrary` (or whatever name you have given). It should look something like this:
 ```
 mypythonlibrary
+
+📦mypythonlib
+ ┣ 📜myfunctions.py
+ ┗ 📜__init__.py
     
 
 ```
 📦mypythonlib
  ┣ 📜myfunctions.py
  ┗ 📜__init__.py
- 
+
 #### Step 4: Create content for your library
 
 #### Step 5: Build your library
