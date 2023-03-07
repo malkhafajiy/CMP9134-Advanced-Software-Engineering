@@ -1,4 +1,4 @@
-# Create a Python library
+# Create Python library
 This tutorial on creating a Python library! In this tutorial, we will go over the basics of creating a Python library, which is a collection of Python modules that can be reused in different projects. By the end of this tutorial, you will have a fully functional Python library that you can use in your own projects or share with others.
 
 ## Why create a library?

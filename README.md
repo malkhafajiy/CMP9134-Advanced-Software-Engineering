@@ -27,5 +27,6 @@ The course covers the following topics:
 * [Object Oriented Programming in Python](OOP.md) and [OOP Exercises](EXERCISES.md) - Week 2 and 3 of the module
 * [Developing requirements specification](REQUIREMENTS-ENGINEERING.md) - Week 4 of the module
 * [System design/modelling using UMLs](UML.md) - Week 6 of the module
+* [Create Python library for software reuse and component-based engineering ](PyLibrary.md) - Week 7 of the module
 
 > More content is introduced as we progress in the module
