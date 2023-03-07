@@ -84,25 +84,23 @@ Now you can write functions inside your library, you can place them in the `myfu
 
 In this tutorial, we will create a library to get the distance between two GPS points using Haversine formula. 
 
-```
-The Haversine formula is a mathematical formula used to calculate the distance between two points on the surface of a sphere, such as the Earth. The formula takes into account the curvature of the sphere to provide more accurate results than other distance calculation methods that assume a flat surface. The Haversine formula is defined as follows:
 
+> The Haversine formula is a mathematical formula used to calculate the distance between two points on the surface of a sphere, such as the Earth. The formula takes into account the curvature of the sphere to provide more accurate results than other distance calculation methods that assume a flat surface. The Haversine formula is commonly used in GPS systems and location-based applications to calculate the distance between two points on the Earth's surface. It is also used in aviation and navigation.
+
+The Haversine formula is defined as follows:
+```
 $a = sin^2(dLat/2) + cos(lat1) * cos(lat2) * sin^2(dLon/2)$
 $c = 2 * atan2( √a, √(1−a) )$
 $d = R * c$
-
-Where:
-- d is the distance between the two points in kilometers
-- R is the radius of the Earth (mean radius = 6,371km)
-- lat1 and lat2 are the latitude of point 1 and point 2, respectively, in radians
-- dLat is the difference in latitude between the two points in radians
-- dLon is the difference in longitude between the two points in radians
-
-The Haversine formula is commonly used in GPS systems and location-based applications to calculate the distance between two points on the Earth's surface. It is also used in aviation and navigation.
 ```
+Where:
+- `d` is the distance between the two points in kilometers
+- `R` is the radius of the Earth (mean radius = `6,371km`)
+- `lat1` and `lat2` are the latitude of point 1 and point 2, respectively, in radians
+- `dLat` is the difference in latitude between the two points in radians
+- `dLon` is the difference in longitude between the two points in radians
 
 
-example, copy the haversine function in your file:
 
 
 #### Step 5: Build your library
