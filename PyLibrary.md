@@ -35,9 +35,9 @@ Go ahead and create a virtual environment by following these steps:
 
 1. open the terminal in VSCode by selecting "Terminal" from the View menu.
 
-2. Set up a Python virtual environment using this command `python3 -m venv venv`. This will create a new virtual environment in a folder named "env".
+2. Set up a Python virtual environment using this command `python3 -m venv venv`. This will create a new virtual environment in a folder named "venv".
 
-3. Activate the virtual environment using this command `source venv\Scripts\activate` on Windows, (`source venv/bin/activate` on macOS or Linux). You should see the name of your virtual environment in the command prompt.
+3. Activate the virtual environment using this command `venv\Scripts\activate` on Windows, (`venv/bin/activate` on macOS or Linux). You should see the name of your virtual environment in the command prompt.
 
 In your environment, make sure you have `pip` installed `wheel`, `setuptools` and `twine`. We will need them for later to build our Python library.
 > pip install wheel
@@ -49,9 +49,16 @@ In your environment, make sure you have `pip` installed `wheel`, `setuptools` an
 
 
 #### Step 3: Create a folder structure
+In VSCode, your folder `mypythonlibrary` (or whatever name you have given). It should look something like this:
+```
+mypythonlibrary
+    
 
-
-
+```
+📦mypythonlib
+ ┣ 📜myfunctions.py
+ ┗ 📜__init__.py
+ 
 #### Step 4: Create content for your library
 
 #### Step 5: Build your library
