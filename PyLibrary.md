@@ -63,7 +63,46 @@ In VSCode, your folder `mypythonlibrary` (or whatever name you have given). It s
  ┗ 📜setup.py
 ```
 
+You now can start adding folders and files to your project. You can do this either through the command prompt or in VSCode itself directly.
+
+1. Create an empty file called `setup.py`. This is one of the most important files when creating a Python library!
+
+2. Create an empty file called `README.md`. This is the place where you can write markdown to describe the contents of your library for other users.
+
+3. Create a folder called `mypythonlib`, or whatever you want your Python library to be called when you pip install it. (The name should be unique on pip if you want to publish it later.)
+
+4. Create an empty file inside `mypythonlib` that is called `__init__.py`. Basically, any folder that has an `__init__.py` file in it, will be included in the library when we build it. Most of the time, you can leave the `__init__.py` files empty. Upon import, the code within `__init__.py` gets executed, so it should contain only the minimal amount of code that is needed to be able to run your project. For now, we will leave them as is.
+
+4. Also, in the same folder, create a file called `myfunctions.py`.
+
+5. And, finally, create a folder `tests` in your root folder. Inside, create an empty `__init__.py` file and an empty `test_myfunctions.py`.
+
+
+
 #### Step 4: Create content for your library
+Now you can write functions inside your library, you can place them in the `myfunctions.py` file. 
+
+In this tutorial, we will create a library to get the distance between two GPS points using Haversine formula. 
+
+>The Haversine formula is a mathematical formula used to calculate the distance between two points on the surface of a sphere, such as the Earth. The formula takes into account the curvature of the sphere to provide more accurate results than other distance calculation methods that assume a flat surface. The Haversine formula is defined as follows:
+```
+a = sin^2(dLat/2) + cos(lat1) * cos(lat2) * sin^2(dLon/2)
+c = 2 * atan2( √a, √(1−a) )
+d = R * c
+```
+Where:
+- d is the distance between the two points in kilometers
+- R is the radius of the Earth (mean radius = 6,371km)
+- lat1 and lat2 are the latitude of point 1 and point 2, respectively, in radians
+- dLat is the difference in latitude between the two points in radians
+- dLon is the difference in longitude between the two points in radians
+
+The Haversine formula is commonly used in GPS systems and location-based applications to calculate the distance between two points on the Earth's surface. It is also used in aviation and navigation.
+
+
+
+example, copy the haversine function in your file:
+
 
 #### Step 5: Build your library
 
