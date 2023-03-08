@@ -41,6 +41,7 @@ Contributing works on all levels, there is no need to over think how you're gonn
 | DuckDuckGo                        | https://github.com/duckduckgo/duckduckgo-privacy-extension/issues
 
 
+> You are welcome to select any other open-source projects that have reasonable development and require a reasonable contribution.
 
 ## How to contribute to an open-source project?
 There are numerous open-source projects avalible online - but how do you get started? Here’s a quick summary of Open Source Guide on How to Contribute to Open Source:
