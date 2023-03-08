@@ -39,7 +39,6 @@ Contributing works on all levels, there is no need to over think how you're gonn
 | Osu!                              | https://github.com/ppy/osu
 | CSS-Art                           | https://github.com/zero-to-mastery/CSS-Art
 | DuckDuckGo                        | https://github.com/duckduckgo/duckduckgo-privacy-extension/issues
-| Any of the projects listed on the README (e.g., Cat Facts) | https://github.com/public-apis/public-apis
 
 
 
