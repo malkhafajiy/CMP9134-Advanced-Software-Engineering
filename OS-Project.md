@@ -31,6 +31,14 @@ Contributing works on all levels, there is no need to over think how you're gonn
 | Moodle                            | https://github.com/moodle/moodle
 | React Native                      | https://github.com/facebook/react-native/issues
 | OpenCV                            | https://github.com/opencv/opencv/issues
+| Markdown Dungeon                  | https://github.com/MakeContributions/markdown-dungeon
+| NetworkX                          | https://github.com/networkx/networkx
+| Moment                            | https://github.com/moment/moment
+| Numpy                             | https://github.com/numpy/numpy/contribute
+| Scikit-learn                      | https://github.com/scikit-learn/scikit-learn/contribute
+| Osu!                              | https://github.com/ppy/osu
+| CSS-Art                           | https://github.com/zero-to-mastery/CSS-Art
+| DuckDuckGo                        | https://github.com/duckduckgo/duckduckgo-privacy-extension/issues
 | Any of the projects listed on the README (e.g., Cat Facts) | https://github.com/public-apis/public-apis
 
 
