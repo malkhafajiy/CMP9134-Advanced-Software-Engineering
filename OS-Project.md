@@ -18,8 +18,8 @@ Contributing works on all levels, there is no need to over think how you're gonn
 | Project Name                      | URL
 | -------------                     | ------------- |
 | Visual Studio Code                | https://github.com/microsoft/vscode/issues
-| Flutter                           | https://github.com/flutter/flutter/issues      
-| PyTorch                           | https://github.com/pytorch/pytorch/issues  
+| Flutter                           | https://github.com/flutter/flutter/issues 
+| PyTorch                           | https://github.com/pytorch/pytorch/issues 
 | Moby by Docker                    | https://github.com/moby/moby/issues 
 | Pandas (data analysis toolkit)    | https://github.com/pandas-dev/pandas/issues
 | NPM (JS package manager)          | https://github.com/npm/cli/issues
@@ -31,6 +31,7 @@ Contributing works on all levels, there is no need to over think how you're gonn
 | Moodle                            | https://github.com/moodle/moodle
 | React Native                      | https://github.com/facebook/react-native/issues
 | OpenCV                            | https://github.com/opencv/opencv/issues
+| Any of the projects listed on the README (e.g., Cat Facts) | https://github.com/public-apis/public-apis
 
 
 
