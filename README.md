@@ -28,6 +28,6 @@ The course covers the following topics:
 * [Developing requirements specification](REQUIREMENTS-ENGINEERING.md) - Week 4 of the module
 * [System design/modelling using UMLs](UML.md) - Week 6 of the module
 * [Create Python library for software reuse and component-based engineering ](PyLibrary.md) - Week 7 of the module
-* [List to Open Source Projects](OS-Project.md) for Assignment 2
+* [List of Open Source Projects](OS-Project.md) for Assignment 2
 
 > More content is introduced as we progress in the module
