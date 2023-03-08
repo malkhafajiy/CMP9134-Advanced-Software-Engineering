@@ -16,7 +16,7 @@ The course covers the following topics:
 * Software Engineering Methodologies
 * Software Requirement Engineering
 * Software Architecture Design/Modelling
-* Component Based Software Development
+* Component Based Software Development > [List to Open Source Projects](OS-Project.md)
 * Human Computer Interaction (HCI)
 * Software Testing/Evaluation
 * DevOps and CI/CD
