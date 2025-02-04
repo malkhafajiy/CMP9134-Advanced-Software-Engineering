@@ -1,5 +1,5 @@
 # Advanced-Software-Engineering
-Welcome to the CMP9134 Advanced Software Engineering course! This course is designed to provide you with a deep understanding of software engineering principles, practices, and techniques.
+Welcome to the Advanced Software Engineering course! This course is designed to provide you with a deep understanding of software engineering principles, practices, and techniques.
 
 ## Learning Outcomes
 * LO1: Critically apply software engineering principles and techniques to software engineering problems, taking into
